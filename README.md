@@ -3,6 +3,10 @@
 A modern and interactive **Tic Tac Toe** game built using **React** and **Tailwind CSS**.
 The project focuses on clean UI, smooth gameplay, and reusable React logic.
 
+
+**DEMO** :-
+https://tic-tac-nogpghlyv-vinays-projects-e8055e58.vercel.app/
+
 ---
 
 ## 🚀 Features
@@ -100,5 +104,3 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-**DEMO** :-
-https://tic-tac-nogpghlyv-vinays-projects-e8055e58.vercel.app/
