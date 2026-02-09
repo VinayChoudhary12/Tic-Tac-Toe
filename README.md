@@ -1,16 +1,104 @@
-# React + Vite
-DEMO:- https://tic-tac-nogpghlyv-vinays-projects-e8055e58.vercel.app/
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎮 Tic Tac Toe Game
 
-Currently, two official plugins are available:
+A modern and interactive **Tic Tac Toe** game built using **React** and **Tailwind CSS**.
+The project focuses on clean UI, smooth gameplay, and reusable React logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🧠 Two-player gameplay (X vs O)
+* 🔄 Turn-based player switching
+* 🏆 Automatic winner detection
+* 🚫 Prevents overwriting filled cells
+* 🔁 Reset game functionality
+* 🎨 Responsive & modern UI using Tailwind CSS
+* ⚛️ Built with reusable React components & custom hooks
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **React (Vite)**
+* **Tailwind CSS**
+* **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│   └── Tic_Tac_Toe.jsx
+│
+│── hooks/
+│   └── CustomHook.jsx
+│
+│── App.jsx
+│── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+   
+git clone https://github.com/your-username/tic-tac-toe-react.git
+
+2. Go to project folder
+
+
+cd tic-tac-toe-react
+
+3. Install dependencies
+
+
+npm install
+
+
+4. Start the development server
+
+
+npm run dev
+
+
+---
+
+## 🎯 How to Play
+
+* Player **X** starts the game
+* Click on any empty box to make a move
+* Players alternate turns
+* The game announces the winner when 3 matching symbols align
+* Use the **Reset** button to start a new game
+
+---
+
+## 🌟 Future Improvements
+
+* Single-player mode (AI)
+* Game score tracking
+* Animations & sound effects
+* Dark / Light mode toggle
+
+---
+
+## 👨‍💻 Author
+
+**Vinay**
+
+* GitHub: []
+* LinkedIn: [y]
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+**DEMO** :-
+https://tic-tac-nogpghlyv-vinays-projects-e8055e58.vercel.app/
